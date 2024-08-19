@@ -1,0 +1,85 @@
+.navbar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: 3cabcb;
+	width: 100%;
+
+	
+	
+}
+
+.navbar a{
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+	color: black
+	
+}
+
+.navbar li{
+	float: left;
+}
+
+.navbar a:hover{
+	transform: scale(1.05);
+	transition: all 0.5s ease;
+	background-color: black;
+	color: 3cabcb;
+}
+
+
+
+
+.floating-btn {
+	width: 60px;
+	height: 60px;
+	background-image: url('messanger.main.png');
+	background-size: cover;
+	display: flex;
+	color: white;
+	border-radius: 50%;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	box-shadow: 2px 2px 5px black;
+	border: 5px solid;
+	position: fixed;
+	right: 20px;
+	bottom: 20px
+}
+
+.floating-btn:hover {
+	transform: scale(1.05);
+	transition: all 0.3s ease;
+	border:  5px solid green
+}
+
+.floating-btn-2 {
+	width: 60px;
+	height: 60px;
+	background-image: url('messanger.main.png');
+	background-size: cover;
+	display: flex;
+	color: white;
+	border-radius: 50%;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	box-shadow: 2px 2px 5px black;
+	border: 5px solid;
+	position: fixed;
+	right: 20px;
+	bottom: 100px
+}
+
+.floating-btn-2:hover {
+	transform: scale(1.05);
+	transition: all 0.3s ease;
+	border:  5px solid green
+}
+
+
